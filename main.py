@@ -15,8 +15,8 @@ for guessesTaken in range(1, 6):
     break
 
 if randomNum == guess and guessesTaken == 1:
-  print("you gussed it correctly in " + str(guessesTaken) + " guess!")
+  print("you guessed it correctly in " + str(guessesTaken) + " guess!")
 elif randomNum == guess and guessesTaken > 1:
-  print("you gussed it correctly in " + str(guessesTaken) + " guesses!")
+  print("you guessed it correctly in " + str(guessesTaken) + " guesses!")
 else:
   print("sorry, the number I was thinking about was " + str(randomNum))
